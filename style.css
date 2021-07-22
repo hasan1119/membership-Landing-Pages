@@ -206,7 +206,11 @@ header {
         font-family: "Futura Mid";
 
     }
-
+    .modal-content.border-0.rounded-0 {
+        background: #191818 !important;
+        height: 500px;
+        overflow: hidden;
+    }
     .bottom-text {
         text-align: left;
         font-size: 18px;
@@ -217,7 +221,7 @@ header {
     }
 
     .modal {
-        top: 11%;
+        top: 15%;
     }
 
     .modal-dialog {
